@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import pose2 from '../../../asset/docmic/pose_2.png';
 import './Banner.css';
+import bannerRelative from '../../../asset/docmic/Group 3.png';
 
 const Banner = () => {
     return (
-        <div className='mid-container'>
+        <div className='mid-container lg:relative'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 lg:gap-0 gap-10  mt-10 pb-16'>
                 <div className='lg:flex md:flex items-center lg:order-1 md:order-1 order-2'>
                     <div>
@@ -28,6 +29,21 @@ const Banner = () => {
                                 <h1 className='text-3xl font-bold text-secondary'>86+</h1>
                                 <h1 className='text-sm'>Expert Doctors</h1>
                             </div>
+                        </div>
+                        <div
+                            className="lg:absolute lg:right-6 md:bottom-32 flex bg-white/80 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+                        >
+                            <div className='p-4'>
+                                <h1 className='text-xl'>Meet Our Doctors</h1>
+                                <div>
+                                    <img class="w-auto h-10" src={bannerRelative} alt="" />
+                                </div>
+                            </div>
+
+                            {/* <div class="pr-7 pl-2 py-5">
+                                <div class="font-bold">Fast delivery</div>
+                                <div class="text-gray-600 leading-relaxed">30 mins delivery 🚀</div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

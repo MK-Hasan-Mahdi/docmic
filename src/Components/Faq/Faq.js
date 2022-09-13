@@ -55,15 +55,7 @@ const Faq = () => {
                         </div>
                     </div>
                 </div>
-                <div
-                    class="absolute left-0 bottom-40 md:bottom-32 lg:bottom-16 flex bg-white/80 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
-                >
-                    {/* <img class="w-auto h-20 self-end" src="/img/driver.png" alt="" /> */}
-                    <div class="pr-7 pl-2 py-5">
-                        <div class="font-bold">Fast delivery</div>
-                        <div class="text-gray-600 leading-relaxed">30 mins delivery 🚀</div>
-                    </div>
-                </div>
+
                 <div className='lg:order-2 md:order-2 order-1 flex justify-end'>
                     <img className='' src={questions} alt="" />
                 </div>
