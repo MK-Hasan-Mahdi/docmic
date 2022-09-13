@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(198, 187, 247, 0.5),
+      rgba(188, 218, 252, 0.5),
+      rgba(250, 248, 248, 0.5));
+}
+
+.bg-footer {
+  background-color: #E9EEF7;
+}
